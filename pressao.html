@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Images/HEALTH_TRACK_LOGO.png" />
+    <title>Página Pressão</title>
+  </head>
+  <body id="pgInicial">
+    <nav id="pgPressao" class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <h2 class="navbar-brand">Pressão</h2>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-lg-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="pagina_inicial.html"
+              ><i class="bi bi-arrow-90deg-left"></i
+            ></a>
+            <a class="nav-link" href="configuracoes.html">Configurações</a>
+            <a class="nav-link" href="metas.html">Metas</a>
+            <a class="nav-link" href="sobre.html">Sobre</a>
+            <a class="nav-link" href="feedback.html">Feedback</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="boxesOpc adicionarPressao">
+        <div class="input-group">
+          <input
+            type="text"
+            aria-label="First name"
+            class="form-control"
+            placeholder="P. Sistólica"
+          />
+          <input
+            type="text"
+            aria-label="Last name"
+            class="form-control"
+            placeholder="P. Diastólica"
+          />
+          <input
+            type="date"
+            aria-label="Last name"
+            class="form-control"
+            placeholder="Data"
+          />
+        </div>
+        <div class="ListaPressaoCadastro">
+          <div class="pressaoCadastro">
+            <h2>140mmHg / 90 mmHg</h2>
+            <h3>15/03/2021 9:00</h3>
+            <button class="btnEdit"><i class="bi bi-pencil-square"></i></button>
+            <button class="btnRemove"><i class="bi bi-trash"></i></button>
+          </div>
+          <div class="pressaoCadastro">
+            <h2>120mmHg / 80 mmHg</h2>
+            <h3>15/04/2021 9:00</h3>
+            <button class="btnEdit"><i class="bi bi-pencil-square"></i></button>
+            <button class="btnRemove"><i class="bi bi-trash"></i></button>
+          </div>
+          <div class="pressaoCadastro">
+            <h2>130mmHg / 80 mmHg</h2>
+            <h3>15/05/2021 9:00</h3>
+            <button class="btnEdit"><i class="bi bi-pencil-square"></i></button>
+            <button class="btnRemove"><i class="bi bi-trash"></i></button>
+          </div>
+          <div class="pressaoCadastro">
+            <h2>120mmHg / 80 mmHg</h2>
+            <h3>15/06/2021 9:00</h3>
+            <button class="btnEdit"><i class="bi bi-pencil-square"></i></button>
+            <button class="btnRemove"><i class="bi bi-trash"></i></button>
+          </div>
+        </div>
+        <button
+          id="addPressao"
+          type="button"
+          class="btn btn-outline-primary fixed-bottom"
+        >
+          Adicionar Pressão
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

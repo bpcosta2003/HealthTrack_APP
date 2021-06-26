@@ -1,0 +1,608 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Concert One", cursive;
+}
+
+#pgCadastro {
+  background-color: #0f528c;
+}
+
+#pgInicial {
+  background-image: linear-gradient(180deg, #ffffff, #ffffff4f, #ffffff27);
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-size: cover;
+}
+
+.boxImageCamera {
+  position: relative;
+  padding: 4rem;
+  padding-bottom: 2rem;
+}
+
+.box {
+  background-color: #bebebe57;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 100px;
+  padding: 2.2rem;
+}
+
+input[type="date"] {
+  text-align: right;
+}
+
+input[type="date"]:before {
+  color: rgba(0, 0, 0, 0.534);
+  content: attr(placeholder) !important;
+  margin-right: 0.5em;
+}
+
+.genderText {
+  color: rgba(0, 0, 0, 0.534);
+  background-color: white;
+}
+
+.bi-camera-fill {
+  font-size: 3em;
+}
+
+.btn-outline-primary {
+  margin-top: 3rem;
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  border: 1px solid white;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+  padding: 0.1rem;
+  border-radius: 20px;
+}
+
+#footerText {
+  color: white;
+  margin-bottom: 2rem;
+}
+#footerText a:hover {
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+#formulario {
+  padding-bottom: 2rem;
+}
+
+.logoHT {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.logoHT img {
+  width: 20rem;
+}
+
+nav {
+  background-image: linear-gradient(45deg, #1f598b, #2f73af, #488cb4);
+}
+
+nav.navbar.navbar-expand-lg {
+  padding: 3rem;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 400px) {
+  nav.navbar.navbar-expand-lg {
+    padding: 1rem;
+  }
+  .navbar-brand {
+    font-size: 1em;
+  }
+}
+
+.bi-list {
+  font-size: 2em;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.navbar-toggler:hover {
+  color: rgb(0, 0, 0);
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(0, 0, 0);
+}
+a.active {
+  color: rgb(0, 0, 0);
+}
+
+.boxesOpc {
+  text-align: left;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  font-size: 2em;
+  color: white;
+}
+
+.peso {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #3300c7, #7a56de);
+  border-radius: 20px;
+}
+.atividades {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #b61705, #f44d3b);
+  border-radius: 20px;
+}
+.pressao {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #ddad04, #ffd300);
+  border-radius: 20px;
+}
+.alimentos {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #00ac57, #00ff80);
+  border-radius: 20px;
+}
+.dashboard {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #0038a5, #548eff);
+  border-radius: 20px;
+}
+
+a.opcLinks {
+  color: white;
+}
+a.opcLinks :hover {
+  color: rgb(0, 0, 0);
+}
+
+.bi-caret-left {
+  color: white;
+}
+
+nav#pgPeso {
+  background-image: linear-gradient(45deg, #3300c7, #7a56de);
+}
+nav#pgAtividades {
+  background-image: linear-gradient(45deg, #b61705, #f44d3b);
+}
+nav#pgPressao {
+  background-image: linear-gradient(45deg, #ddad04, #ffd300);
+}
+nav#pgAlimentos {
+  background-image: linear-gradient(45deg, #00ac57, #00ff80);
+}
+nav#pgDashboard {
+  background-image: linear-gradient(45deg, #0038a5, #548eff);
+}
+
+.bi-star-fill {
+  font-size: 3em;
+}
+
+div.btn-group {
+  background-color: #ffffff00;
+  border-radius: 20px;
+}
+
+.btn-outline-primary {
+  color: rgb(255, 255, 255);
+  background-color: #ffffff00;
+}
+.btn-group .btn-outline-primary:hover {
+  color: rgb(128, 97, 13);
+  background-color: #ffffff00;
+}
+
+.form-control {
+  font-size: 1em;
+}
+
+#feedbackSubmit {
+  color: black;
+  border: 1px solid black;
+}
+#feedbackSubmit:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+}
+
+.starbtn {
+  color: #ffae00;
+  border: 1px solid transparent;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .starbtn {
+    color: #ffae00;
+    border: 1px solid transparent;
+    padding: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.form-check-input {
+  margin-top: 4rem;
+}
+
+.feed {
+  text-align: center;
+  color: white;
+}
+.feed h3 {
+  text-align: center;
+  padding-top: 25rem;
+  color: white;
+}
+
+.imgLogoSobre {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.imgLogoSobre img {
+  width: 20em;
+}
+
+.sobreBox h1 {
+  font-size: 3em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.sobreBox h3 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5em;
+}
+
+.contact {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-size: 2em;
+}
+.contact a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 372px) {
+  .imgLogoSobre img {
+    width: 10em;
+  }
+  .sobreBox h1 {
+    font-size: 2em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+  .sobreBox h3 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 2rem;
+    font-size: 1em;
+  }
+}
+
+#changeProfileImg {
+  width: 6rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+#changeProfileImg:hover {
+  color: black;
+  background-color: #bebebe57;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+#ProfileImg {
+  width: 6rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+}
+#ProfileImg:hover {
+  color: black;
+  background-color: #bebebe57;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+#saveChanges {
+  border: 1px solid black;
+  color: black;
+  margin-bottom: 2rem;
+}
+#saveChanges:hover {
+  border: 1px solid transparent;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+}
+
+.block1 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(180deg, #db5116, #ffaf37);
+  height: 15rem;
+  color: white;
+  border-radius: 25px;
+}
+
+.block2 {
+  background-image: linear-gradient(180deg, #00278c, #6592ff);
+  height: 7rem;
+  color: white;
+  border-radius: 25px;
+}
+.block3 {
+  background-image: linear-gradient(180deg, #b11908, #f97b6e);
+  height: 7rem;
+  color: white;
+  border-radius: 25px;
+  float: right;
+}
+
+.dashboardBoxes {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  display: grid;
+  color: white;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "bloco1 bloco1 bloco2"
+    "bloco1 bloco1 bloco3"
+    "bloco5 bloco4 bloco4"
+    "bloco6 bloco4 bloco4";
+}
+
+.bloco1 {
+  grid-area: bloco1;
+  height: 15rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(180deg, #db5116, #ffaf37);
+  border-radius: 25px;
+}
+
+.bloco2 {
+  grid-area: bloco2;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(180deg, #00278c, #6592ff);
+  border-radius: 25px;
+}
+.bloco3 {
+  grid-area: bloco3;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(180deg, #b11908, #f97b6e);
+  border-radius: 25px;
+}
+.bloco4 {
+  grid-area: bloco4;
+  height: 15rem;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(180deg, #db5116, #ffaf37);
+  border-radius: 25px;
+}
+.bloco5 {
+  grid-area: bloco5;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(180deg, #00278c, #6592ff);
+  border-radius: 25px;
+}
+.bloco6 {
+  grid-area: bloco6;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(180deg, #b11908, #f97b6e);
+  border-radius: 25px;
+}
+
+.bloco1 h3,
+h1 {
+  margin: 2rem;
+}
+.bloco2 h3,
+h1 {
+  margin: 2rem;
+}
+.bloco3 h3,
+h1 {
+  margin: 2rem;
+}
+.bloco4 h3,
+h1 {
+  margin: 2rem;
+}
+.bloco5 h3,
+h5 {
+  margin: 1rem;
+}
+.bloco6 h3,
+h1 {
+  margin: 2rem;
+}
+
+.dashboardBoxes a {
+  color: white;
+}
+.dashboardBoxes a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.adicionarPesos {
+  padding: 2rem;
+}
+
+#addPeso {
+  color: black;
+  border: 1px solid black;
+}
+#addPeso:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  border: 1px solid black;
+  background-image: linear-gradient(45deg, #3300c7, #7a56de);
+}
+
+.ListaPesosCadastro {
+  margin-bottom: 7rem;
+}
+
+.pesosCadastro {
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #3300c7, #7a56de);
+  border-radius: 20px;
+}
+
+.btnEdit {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: white;
+}
+.btnEdit:hover {
+  color: rgb(0, 0, 0);
+}
+.btnRemove {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: white;
+}
+.btnRemove:hover {
+  color: rgb(0, 0, 0);
+}
+
+.adicionarPressao {
+  padding: 2rem;
+}
+
+#addPressao {
+  color: black;
+  border: 1px solid black;
+}
+#addPressao:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  border: 1px solid black;
+  background-image: linear-gradient(45deg, #ddad04, #ffd300);
+}
+
+.ListaPressaoCadastro {
+  margin-bottom: 7rem;
+}
+
+.pressaoCadastro {
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #ddad04, #ffd300);
+  border-radius: 20px;
+}
+#addAtividades {
+  color: black;
+  border: 1px solid black;
+}
+#addAtividades:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  border: 1px solid black;
+  background-image: linear-gradient(45deg, #b61705, #f44d3b);
+}
+
+.ListaAtividadesCadastro {
+  margin-bottom: 7rem;
+}
+
+.atividadesCadastro {
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #b61705, #f44d3b);
+  border-radius: 20px;
+}
+#addAlimentos {
+  color: black;
+  border: 1px solid black;
+}
+#addAlimentos:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+  border: 1px solid black;
+  background-image: linear-gradient(45deg, #00ac57, #00ff80);
+}
+
+.ListaAlimentosCadastro {
+  margin-bottom: 7rem;
+}
+
+.alimentosCadastro {
+  margin-top: 2rem;
+  padding: 2rem;
+  width: 100%;
+  background-image: linear-gradient(45deg, #00ac57, #00ff80);
+  border-radius: 20px;
+}
+
+.metas {
+  padding-top: 2rem;
+}
+
+.metaPeso {
+  margin-bottom: 2rem;
+}
+
+#saveMeta {
+  color: black;
+  border: 1px solid black;
+}
+#saveMeta:hover {
+  color: rgb(255, 255, 255);
+  border: 1px solid transparent;
+}
