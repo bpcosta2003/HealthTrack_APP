@@ -272,8 +272,12 @@ div.btn-group {
 }
 .feed h3 {
   text-align: center;
-  padding-top: 25rem;
+  padding-top: 20rem;
   color: white;
+}
+
+.btnFeedBack {
+  margin-bottom: 4rem;
 }
 
 .imgLogoSobre {
